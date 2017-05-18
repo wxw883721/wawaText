@@ -15,6 +15,7 @@
 		16F8E5491ECD6C53004515FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16F8E5471ECD6C53004515FE /* LaunchScreen.storyboard */; };
 		16F8E5541ECD6C53004515FE /* wawaTextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F8E5531ECD6C53004515FE /* wawaTextTests.m */; };
 		16F8E55F1ECD6C53004515FE /* wawaTextUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F8E55E1ECD6C53004515FE /* wawaTextUITests.m */; };
+		16F8E56F1ECD83A6004515FE /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F8E56E1ECD83A6004515FE /* Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		16F8E55A1ECD6C53004515FE /* wawaTextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wawaTextUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16F8E55E1ECD6C53004515FE /* wawaTextUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wawaTextUITests.m; sourceTree = "<group>"; };
 		16F8E5601ECD6C53004515FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16F8E56D1ECD83A6004515FE /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		16F8E56E1ECD83A6004515FE /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		16F8E5381ECD6C53004515FE /* wawaText */ = {
 			isa = PBXGroup;
 			children = (
+				16F8E56C1ECD8376004515FE /* Classes */,
 				16F8E53C1ECD6C53004515FE /* AppDelegate.h */,
 				16F8E53D1ECD6C53004515FE /* AppDelegate.m */,
 				16F8E53F1ECD6C53004515FE /* ViewController.h */,
@@ -138,6 +142,15 @@
 				16F8E5601ECD6C53004515FE /* Info.plist */,
 			);
 			path = wawaTextUITests;
+			sourceTree = "<group>";
+		};
+		16F8E56C1ECD8376004515FE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				16F8E56D1ECD83A6004515FE /* Test.h */,
+				16F8E56E1ECD83A6004515FE /* Test.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				16F8E5411ECD6C53004515FE /* ViewController.m in Sources */,
+				16F8E56F1ECD83A6004515FE /* Test.m in Sources */,
 				16F8E53E1ECD6C53004515FE /* AppDelegate.m in Sources */,
 				16F8E53B1ECD6C53004515FE /* main.m in Sources */,
 			);
@@ -507,6 +521,7 @@
 				16F8E5651ECD6C53004515FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		16F8E5661ECD6C53004515FE /* Build configuration list for PBXNativeTarget "wawaTextTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +530,7 @@
 				16F8E5681ECD6C53004515FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		16F8E5691ECD6C53004515FE /* Build configuration list for PBXNativeTarget "wawaTextUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +539,7 @@
 				16F8E56B1ECD6C53004515FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
